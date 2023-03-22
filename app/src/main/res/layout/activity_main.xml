@@ -8,14 +8,14 @@
         android:orientation="vertical"
         android:layout_gravity="center"
         android:gravity="center"
-        android:background="#000000"
+        android:background="@color/white"
         android:id="@+id/root"
         tools:context=".MainActivity">
 
-    <com.deepan.pieprogress.PieProgress
+    <com.deepan.pieprogress.PieAndBGprogressView
             android:id="@+id/pieProgress"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             app:progressColor="@color/white"/>
 
 </LinearLayout>
